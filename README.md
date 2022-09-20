@@ -4,7 +4,7 @@ Script to check if a public key is registered with a list of MEVBoost relays
 
 # Requirements
 
-* Bash version 4 or great
+* Bash version 4 or greater
 * curl
 * jq
 * an emoji capable terminal 🤷
