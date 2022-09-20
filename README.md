@@ -43,3 +43,4 @@ The following relays are checked:
 
 Manifold's relay is not included because they do not implement the validator_registration endpoint. 
 
+If there are anymore relays I've missed please open an issue or message me on twitter or reddit
