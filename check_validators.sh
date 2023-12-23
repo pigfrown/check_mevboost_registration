@@ -24,11 +24,13 @@ url_path="relay/v1/data/validator_registration?pubkey="
 declare -A relays
 
 relays[BloXroute_max_profit]="https://bloxroute.max-profit.blxrbdn.com"
+relays[Ultrasound_Money]="https://relay.ultrasound.money"
 relays[BloXroute_ethical]="https://bloxroute.ethical.blxrbdn.com"
 relays[BloXroute_regulated]="https://bloxroute.regulated.blxrbdn.com"
 relays[Blocknative]="https://builder-relay-mainnet.blocknative.com"
 relays[Eden]="https://relay.edennetwork.io"
 relays[Flashbots]="https://boost-relay.flashbots.net"
+relays[Agnostic]="https://agnostic-relay.net"
 
 
 # Manifold doesn't follow the spec.. leaving this out for now
@@ -47,6 +49,3 @@ for key in "${!relays[@]}" ; do
 		echo "$key ❌"
 	fi
 done
-
-
-
