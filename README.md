@@ -4,7 +4,7 @@ Script to check if a public key is registered with a list of MEVBoost relays
 
 # Requirements
 
-* Bash version 4 or great
+* Bash version 4 or greater
 * curl
 * jq
 * an emoji capable terminal 🤷
@@ -43,3 +43,4 @@ The following relays are checked:
 
 Manifold's relay is not included because they do not implement the validator_registration endpoint. 
 
+If there are anymore relays I've missed please open an issue or message me on twitter or reddit
